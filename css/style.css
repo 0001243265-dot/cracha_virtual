@@ -1,0 +1,110 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f5f9;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+
+.card-perfil {
+    width: 320px;
+    max-width: 100%;
+    padding: 28px 22px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #dbeafe;
+    margin-bottom: 16px;
+}
+
+
+.card-perfil h2 {
+    color: #1e293b;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+
+.profissao {
+    color: #2563eb;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+
+.bio {
+    color: #475569;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.destaque-senai {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+
+.habilidades {
+    margin-bottom: 20px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 4px 2px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.badge-html {
+    background-color: #ffedd5;
+    color: #c2410c;
+}
+
+.badge-css {
+    background-color: #dbeafe;
+    color: #1d4ed8;
+}
+
+.badge-git {
+    background-color: #dcfce7;
+    color: #15803d;
+}
+
+.badge-status {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: #dcfce7;
+    color: #166534;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
